@@ -1,0 +1,36 @@
+1. strip()
+Purpose: Removes whitespace (spaces, tabs, newlines) from the start and end of a string.
+
+Does not touch characters inside the string.
+
+Example:
+
+python
+text = "   123,456   \n"
+print(text.strip())   # "123,456"
+Here, only the spaces and newline are removed, commas remain.
+
+2. split()
+Purpose: Breaks a string into a list of substrings based on a separator you provide.
+
+Default separator is whitespace (" "), but you can specify anything (like ",").
+
+Example:
+
+python
+data = "3,12,321,312"
+numbers = data.split(",")
+print(numbers)   # ['3', '12', '321', '312']
+Notice: commas are gone, because they were used as the cutting points.
+
+3. sep (parameter in print() or splitlines())
+Not a method itself — it’s usually a parameter name.
+
+Commonly seen in print():
+
+python
+print(1, 2, 3, sep="-")
+# Output: 1-2-3
+Here, sep defines what separates the printed values.
+
+Also used in some functions like splitlines(keepends=False, sep=None) in newer Python versions, but most often you’ll encounter it in print().

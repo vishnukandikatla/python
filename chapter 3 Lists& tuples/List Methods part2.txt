@@ -1,0 +1,29 @@
+List Methods
+
+list.append()= adding one more element but it takes the one arugement in one time we can't append the all at one time
+list.extend(list1,list2)= we can add multiple element one time
+
+
+list.insert(index,value)= its is inserted in the values in that particular index and past index values stored in another index value 
+
+list.sort() = acending order
+list.sort(reverse=True) = descending order (T is should bre capital)
+
+list.reverse() = its used to reverse the list
+
+list.pop(index)= it is used to remove a particular index value
+list.remove()= its is used remove first occurance of value in index
+
+
+Example
+movie = []
+mov1 = input("Enter the name of the movie: ")
+mov2 = input("Enter the name of the movie: ")
+mov3 = input("Enter the name of the movie: ")
+movie.append(mov1)
+movie.append(mov2)
+movie.append(mov3)
+
+or 
+
+movie.extend(mov1,mov2,mov3)

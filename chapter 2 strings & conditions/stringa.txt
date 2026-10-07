@@ -1,0 +1,5 @@
+str.captialize()-its is used to captailize the firs alphabet in word
+str.endwith("")- it is used a check particular word or sentence is endwith
+str.find()- it is used find the words
+str.replace("old","new")- it is used to replace the word or letter in the string
+str.count()- it is used to count the string 

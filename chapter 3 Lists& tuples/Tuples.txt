@@ -1,0 +1,21 @@
+Tuples
+
+In these tuples we used to uses ()
+in list we use []
+but in this we cannot change the list
+just we count the tuple
+check the specific index value
+ 
+Methods
+tup = (1,2,34,5,6)
+ tup.index(enter element) = by using the element we used find the index postion
+print(tup.index(32))
+output(3)
+
+
+ tup.count(2) = it is used to count the number of 2 repeated in the tuple
+ tup.count(2)
+output(1)
+
+
+ 

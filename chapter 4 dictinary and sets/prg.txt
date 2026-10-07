@@ -1,0 +1,19 @@
+dict = {
+    "student" : {
+        "5c2" : "varshitha",
+        "5c3" : "vishnu"
+    },
+     "subject" : {
+         "vishnu" : { 
+            "maths" : 99,
+            "phy" : 88,
+            "chem" : 100      
+     },
+      "varshitha" :{ 
+            "maths" : 99,
+            "phy" : 88,
+            "chem" : 100
+        } 
+     }   
+}
+print(dict[["subject"])

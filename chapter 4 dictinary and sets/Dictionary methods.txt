@@ -1,0 +1,9 @@
+Dictionary methods
+
+.keys(), 
+.values(), 
+.items() # give you views of the dictionary’s structure.
+
+.get() safely retrieves a value by key.
+
+.update() merges or overwrites entries from another dictionary.

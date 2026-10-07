@@ -1,0 +1,32 @@
+🔹 Beginner Level
+Print numbers from 1 to 10 using a while loop.
+
+Print numbers from 10 down to 1 (reverse order).
+
+Print the first 10 even numbers.
+
+Print the first 10 odd numbers.
+
+Print the multiplication table of 5 (from 5 × 1 to 5 × 10).
+
+🔹 Intermediate Level
+Print the sum of numbers from 1 to 100.
+
+Print the factorial of a number (e.g., 5! = 120).
+
+Print the reverse of a given number (e.g., input 123 → output 321).
+
+Print the digits of a number one by one (e.g., input 456 → output 4, 5, 6).
+
+Print the count of digits in a number (e.g., input 9876 → output 4).
+
+🔹 Advanced Level
+Check if a number is a palindrome (e.g., 121 → palindrome, 123 → not).
+
+Check if a number is an Armstrong number (e.g., 153 → Armstrong).
+
+Print the Fibonacci series up to n terms.
+
+Find the greatest digit in a number (e.g., 572 → greatest digit is 7).
+
+Print all prime numbers between 1 and 50.

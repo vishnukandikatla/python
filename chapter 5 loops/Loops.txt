@@ -1,0 +1,32 @@
+Loops 
+ loop are used to repeat instruction
+
+ASCII 65 to 90 are the capital letter 
+ASCII 97 to 122 are the small letter 
+
+#example1 print the capital alphabets
+
+i = 65
+ while i <= 122:
+  print(ch(i), end =' ')
+    i += 1
+
+#Output = A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+
+#examtple 2:
+i = 97
+ while i <= 90:
+  print(ch(1), end = ' ')
+   i += 1
+#Output : a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+
+ch(i)= it indicates the give the out as alphabetic order
+i = it only print number btw give statement
+
+#examtple 3:
+
+i = 65
+ while i <= 122: # giving instruction to stop the statement
+  print(i, end =' ')
+    i += 1 

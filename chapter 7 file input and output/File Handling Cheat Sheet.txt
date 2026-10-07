@@ -1,0 +1,84 @@
+ File Handling Cheat Sheet
+1. Read Mode ("r")
+Opens file for reading (default).
+
+Error if file doesn’t exist.
+
+python
+with open("demo.txt", "r") as f:
+    data = f.read()
+    print("File content:", data)
+
+2. Write Mode ("w")
+Creates new file or overwrites existing.
+
+⚠️ Existing content is erased.
+
+python
+with open("demo.txt", "w") as f:
+    f.write("This will overwrite old content")
+
+3. Append Mode ("a")
+Adds new content at the end.
+
+Keeps existing content intact.
+
+python
+with open("demo.txt", "a") as f:
+    f.write("\nThis line is appended")
+
+4. Read + Write Mode ("r+")
+Reads and writes without truncating.
+
+File must exist.
+
+python
+with open("demo.txt", "r+") as f:
+    content = f.read()
+    f.seek(0)  # move pointer to start
+    f.write("Updated start\n" + content)
+
+5. Write + Read Mode ("w+")
+Creates new file or overwrites existing.
+
+Allows both reading and writing.
+
+python
+with open("demo.txt", "w+") as f:
+    f.write("Fresh content")
+    f.seek(0)
+    print("Now reading:", f.read())
+
+6. Append + Read Mode ("a+")
+Opens file for appending and reading.
+
+Pointer at end, so use seek(0) to read.
+
+python
+with open("demo.txt", "a+") as f:
+    f.write("\nExtra line")
+    f.seek(0)
+    print("Full file:", f.read())
+
+7. Pointer Control
+f.tell() → current position
+f.seek(pos) → move pointer
+file.flush()
+Forces the buffer to be written immediately to the file on disk.
+Without flush(), the text would still be saved when the file closes, but flush() ensures it’s visible right away.
+
+python
+with open("demo.txt", "r") as f:
+    print("Position:", f.tell())
+    f.seek(5)
+    print("After seek:", f.read())
+
+✅ Quick Summary Table
+
+Mode	Purpose	     File must exist?		Overwrites?
+r	Read     	Yes	                   No
+w	Write		No (creates new)	  Yes
+a	Append		No (creates new)	   No
+r+	Read+Write	Yes	           	   No
+w+	Write+Read	No (creates new)   	  Yes
+a+	Append+Read	No (creates new)   	  No

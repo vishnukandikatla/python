@@ -1,0 +1,23 @@
+CHAPTER 3
+***Lists 
+example:-
+list =["vishnu",99,"CSE"]
+#in this list we change string but not in regular onces
+marks[0] = "jingu"
+print("marks") 
+
+***sliceing
+print(marks[staring index : ending index])
+# if doesn't give the start or end of the index number it takes len(marks)
+**Example 1 :- if only for positive integer
+marks = [1,2,23,3,4,44,3]
+print(marks[0:3])
+output(1,2,23)
+**Example 2 :- negative index it count from reverse order 
+marks = [1(-7),2(-6),23(-5),3(-4),4(-3),44(-2),3(-1)]
+print(marks[-3:-1])
+output(4,44)
+#in this negative not include the ending index in output 
+
+  
+ 

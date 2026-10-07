@@ -1,0 +1,15 @@
+1. Knowledge on Tech stacks,
+tools, components
+Tech Stack / Tools Used
+
+Python — Core development language
+Streamlit — Chatbot/Ul layer
+FastAPl — Backend/APl layer
+Pandas — CSV ingestion, data cleaning, profiling & normalization
+PostgreSQL — Structured business-data storage & SQL execution
+LLM — Natural-language understanding and SQL generation
+Agent Workflow — Orchestration, schema retrieval & tool calling
+Schema Retrieval — Retrieves relevant tables, columns & metadata
+SQL Guardrails — Validates generated SQL; restricts unsafe operations
+REST API — Communication between Ul/backend components
+CSV — Source/business data format

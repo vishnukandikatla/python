@@ -1,0 +1,10 @@
+Dictionary in python
+consisting of key:value here the key and there vaule is mutable(changeable)
+
+Example 1:
+info = {
+      "name" = "vishnu"
+      "age" = 21
+}
+print(info[give the specific "key" name]) 
+

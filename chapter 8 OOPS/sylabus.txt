@@ -1,0 +1,74 @@
+1. Basics
+What is OOP?
+Class
+Object
+Creating objects
+self keyword
+__init__() constructor
+
+2. Variables
+Instance variables
+Class variables
+Local variables
+
+3. Methods
+Instance methods
+Class methods (@classmethod)
+Static methods (@staticmethod)
+
+4. Four Pillars of OOP
+Encapsulation (hide data)
+Inheritance (reuse code)
+Polymorphism (same method, different behavior)
+Abstraction (show only necessary details)
+
+5. Inheritance Types
+Single inheritance
+Multiple inheritance
+Multilevel inheritance
+Hierarchical inheritance
+Hybrid inheritance (concept)
+
+6. Special (Magic/Dunder) Methods
+__str__()
+__repr__()
+__len__()
+__add__()
+__eq__()
+
+7. Access Modifiers
+Public
+Protected (_variable)
+Private (__variable)
+
+8. Property Decorators
+@property
+@setter
+@deleter
+
+9. Advanced Concepts
+Method overriding
+Method overloading (Python way using default arguments or *args)
+Composition
+Aggregation
+Abstract classes (abc module)
+
+10. Practice Programs
+Student Management System
+Bank Account
+Library Management
+Employee Payroll
+E-commerce Cart
+ATM System
+Hospital Management
+Interview Topics
+Difference between Class and Object
+self vs cls
+Instance vs Class variables
+@staticmethod vs @classmethod
+Inheritance vs Composition
+Overloading vs Overriding
+Encapsulation vs Abstraction
+super()
+MRO (Method Resolution Order)
+Constructor and Destructor (__del__())

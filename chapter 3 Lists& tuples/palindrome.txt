@@ -1,0 +1,31 @@
+palindrome
+
+processs
+ step 1 = we copy the list using the copy()
+example 
+copy1 = list1.copy()
+
+step 2 = reverse the copy list
+  copy 1.reverse()
+
+step 3 = check with the orginal should be same with any statements
+ 
+Example 
+list = [1,2,3,2,1]
+copy = list.copy()  
+copy.reverse()
+if (copy == list):
+    print("The list is a palindrome.")
+else:
+    print("The list is not a palindrome.")
+
+Exapmle 22
+
+msg = [91,22,45,53,65,,75,32]
+print(msg.sort[])
+print(msg)
+ or
+msg = [91,22,45,53,65,75,32]
+msg.sort()
+print(msg)
+

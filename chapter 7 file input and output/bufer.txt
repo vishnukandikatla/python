@@ -1,0 +1,12 @@
+Buffering
+Definition: Buffering stores data in memory before sending it to disk or reading from disk.
+
+Why: Disk I/O is slow; buffering reduces the number of system calls.
+
+Modes:
+
+Unbuffered (buffering=0): Data written immediately (rarely used).
+
+Line-buffered (buffering=1): Flushes on newline (useful for logs).
+
+Full-buffered (buffering>1): Default; flushes when buffer is full or file is closed.

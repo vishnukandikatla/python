@@ -1,0 +1,16 @@
+Here are the **simple definitions**:
+
+1)isdigit() → Returns `True` if all characters in a string are digits (0–9).  
+2)isalpha() → Returns `True` if all characters in a string are letters (A–Z, a–z).
+  
+3)join() Combines elements of a list (or other iterable) into one string, using the string it’s called on as the separator.  
+ 
+Purpose: Joins elements of an iterable (like a list or tuple) into a single string, using the string it’s called on as a separator.
+Returns: A new string.
+
+text = "abc123!@"
+digits = "".join([ch for ch in text if ch.isdigit()])
+letters = "".join([ch for ch in text if ch.isalpha()])
+
+print("Digits:", digits)   # 123
+print("Letters:", letters) # abc
